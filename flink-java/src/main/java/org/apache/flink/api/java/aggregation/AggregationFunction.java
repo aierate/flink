@@ -24,6 +24,9 @@ import org.apache.flink.annotation.Internal;
 @Internal
 public abstract class AggregationFunction<T> implements java.io.Serializable {
     private static final long serialVersionUID = 1L;
+    /*
+    这是git测试行
+     */
 
     public abstract void initializeAggregate();
 
